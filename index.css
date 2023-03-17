@@ -11,6 +11,10 @@
 
 body{
     background-color: hsl(30, 38%, 92%); 
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
 }
 
 .sr-only{
@@ -27,9 +31,7 @@ body{
 
 .body{
     width: 700px;
-    margin: auto;
     display: flex;
-    margin-top: 200px;
     border-radius: 10px;
     box-shadow: 5px 10px 18px hsl(221, 100%, 96%);
     background-color: white; 
